@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#2E86C1</color>
+
+    <color name="toolbar_color">#2E86C1</color>
+    <color name="background_opaque">#007D0541</color>
+    <color name="background_silver">#17CCD1D1</color>
+    <color name="instrumental_bar_color">#2874A6</color>
+
+    <color name="day_background">#402E86C1</color>
+    <color name="selected_lesson">#222E86C1</color>
+    <color name="time_background">#072E86C1</color>
+    <color name="border_color">#6670AEFF</color>
+    <color name="day_text_color">#000000</color>
+    <color name="time_text_color">#878787</color>
+
+    <color name="default_color_surface">@color/design_default_color_surface</color>
+
+</resources>

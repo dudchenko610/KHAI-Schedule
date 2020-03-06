@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/constraintlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id = "@+id/inclId"
+        layout = "@layout/app_bar_main">
+    </include>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_width="84dp"
+        android:layout_height="71dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="sometext"
+        android:textAlignment="center"
+        android:textColor="@color/time_text_color"
+        android:textSize="9pt">
+
+    </ProgressBar>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="sometext"
+        android:textSize = "9pt"
+        android:textColor="@color/time_text_color">
+
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/inclId">
+
+        <LinearLayout
+            android:id = "@+id/main_shedule_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

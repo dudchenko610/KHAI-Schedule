@@ -1,0 +1,34 @@
+<resources>
+
+    <style
+        name="StartTheme"
+        parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item  name="android:windowBackground">@drawable/finallogo</item>
+
+    </style>
+
+    <style
+        name="MyTheme"
+        parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/toolbar_color</item>
+        <item name="colorPrimaryDark">@color/instrumental_bar_color</item>
+        <item name="colorAccent">@color/toolbar_color</item>
+
+        <item  name="android:windowBackground">@color/design_default_color_surface</item>
+        <item name="colorControlNormal">@color/design_default_color_surface</item>
+
+    </style>
+
+
+    <style name="ToolbarTheme"
+        parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="colorControlNormal">@color/design_default_color_surface</item>
+    </style>
+
+
+</resources>
